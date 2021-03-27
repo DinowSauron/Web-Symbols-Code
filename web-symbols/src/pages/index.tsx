@@ -7,7 +7,7 @@ import { Seo } from '../components/Seo';
 export default function Home() {
   return (
     <div>
-      <Seo/>
+      {/* <Seo/> */}
 
       <h1>hello bicho</h1>
     </div>
