@@ -4,7 +4,7 @@ export function Seo(){
 
     return (
         <div>
-            <head>
+            <Head>
 
                 {/*Open Graph*/}
                 <meta property="og:type" content="website"/>
@@ -15,7 +15,7 @@ export function Seo(){
                 <meta property="og:description" content="Find the most used symbols easily with web symbols, find the symbol, copy your code, favorite your symbol, create personalized folders, everything to make your work easier!"/>
 
                 {/* <meta property="og:url" content=""/> */}
-            </head>
+            </Head>
         </div>
     );
 }

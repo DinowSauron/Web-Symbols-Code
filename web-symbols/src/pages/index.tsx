@@ -9,9 +9,9 @@ export default function Home() {
     <div>
       <Seo/>
 
-      <head>
+      <Head>
         <title>Web Symbols Code</title>
-      </head>
+      </Head>
 
 
       <h1>hello bicho</h1>
