@@ -13,7 +13,8 @@ export function Seo(){
                 <meta property="og:image:height" content="350"/>
                 <meta property="og:description" content="Find the most used symbols easily with web symbols, find the symbol, copy your code, favorite your symbol, create personalized folders, everything to make your work easier!"/>
 
-                {/* <meta property="og:url" content=""/> */}
+                <meta property="og:url" content="https://web-symbols-code.vercel.app/"/>
+                <title>Web Symbols Code</title>
             </Head>
         </div>
     );

@@ -9,11 +9,6 @@ export default function Home() {
     <div>
       <Seo/>
 
-      <Head>
-        <title>Web Symbols Code</title>
-      </Head>
-
-
       <h1>hello bicho</h1>
     </div>
   )
