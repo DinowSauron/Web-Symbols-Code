@@ -5,7 +5,6 @@ export function Seo(){
     return (
         <div>
             <Head>
-
                 {/*Open Graph*/}
                 <meta property="og:type" content="website"/>
                 <meta property="og:title" content="Web Symbols Code"/>
