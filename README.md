@@ -3,4 +3,5 @@
 
 
 * ``/vercel``
+* Nas configurações da vercel, coloque a pasta root do projeto ``web-symbols``
 * ``/vercel deploy``
