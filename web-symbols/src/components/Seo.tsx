@@ -9,7 +9,8 @@ export function Seo(){
                 {/*Open Graph*/}
                 <meta property="og:type" content="website"/>
                 <meta property="og:title" content="Web Symbols Code"/>
-                <meta data-react-helmet="true" property="og:image" content="https://raw.githubusercontent.com/DinowSauron/Web-Symbols-Code/main/web-symbols/public/img/WSCwhite.png"/>
+                <meta data-react-helmet="true" property="og:image" content="https://web-symbols-code.vercel.app/img/WSCwhite.png"/>
+                <meta data-react-helmet="true" property="twitter:image" content="https://web-symbols-code.vercel.app/img/WSCwhite.png"/>
 
                 <meta property="og:description" content="Find the most used symbols easily with web symbols, find the symbol, copy your code, favorite your symbol, create personalized folders, everything to make your work easier!"/>
 
