@@ -31,24 +31,24 @@ interface seoProps {
 // Fill the default values here:
 const Configs = {
     siteTitle: "",
-    siteName: "Web Symbols Code",
+    siteName: "Web Symbols Code | take the most used symbols and emoji",
     pageUrl: "https://web-symbols-code.vercel.app/",
-    description: "Find the most used symbols easily with web symbols, find the symbol, copy your code, favorite your symbol, create personalized folders, everything to make your work easier!",
+    description: "Find the most used symbols easily with Web Symbols Code, find the Symbols, Entities, Characters and Codes | everything to simplify your work",
     keywords: "Web, Symbols,Easy Symbols,Html emoji,Css emoji,emoji code,get symbol code,free emoji code,online code symbols,web symbols,responsive emoji",
     twitterId: "@", // With @
     language: "pt-BR",
     image: {
         rawUrl: "https://web-symbols-code.vercel.app/img/WSCwhite.png",
         type: "image/png",
-        width: "400",
-        height: "400",
-        alt: "Site Logo"
+        width: "200",
+        height: "200",
+        alt: "Site Logo",
     },
-    video: {
+    video: null, /*{ // not embed
         rawUrl: "https://www.youtube.com/embed/aHjpOzsQ9YI",
         width: "900",
         height: "400",
-    },
+    },*/
 
     googleVerification: "Z-UjI3t9GdfNDXgiH3K-rd3B3prJrkZ3TLm0M1e1xVM",
 }
@@ -94,7 +94,7 @@ export function Seo(props/*: seoProps*/){
                     <meta property="og:image:height" content={image.height}/>
                     <meta property="og:image:alt" content={image.alt}/>
                 </>) : ("")}
-                
+
                 {(video != null) ? (<>
                     <meta property="og:video" content={video.rawUrl}/>
                     <meta property="og:video:width" content={video.width}/>
@@ -106,6 +106,8 @@ export function Seo(props/*: seoProps*/){
                 <meta data-react-helmet="true" property="twitter:image" content={image.rawUrl}/>
                 <meta property="twitter:image" content={image.rawUrl}/>
                 <meta property="twitter:card" content="summary_large_image"/>
+                <meta property="twitter:title" content={siteName}/>
+                <meta property="twitter:description" content={description}/>
 
                 {(twitterId != "@") ? (<>
                     <meta property="twitter:site" content={twitterId}/>
