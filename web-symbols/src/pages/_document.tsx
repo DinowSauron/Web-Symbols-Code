@@ -7,7 +7,7 @@ export default class MyDocument extends Document {
             <Html lang="pt-br">
                 <Head>
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
-                    <meta name="description" content="Find the most used symbols easily with web symbols, find the symbol, copy your code, favorite your symbol, create personalized folders, everything to make your work easier!"/>
+                    
                     
                     {/* Bree Serif | Kelly Slab | Rajdhani */}
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>

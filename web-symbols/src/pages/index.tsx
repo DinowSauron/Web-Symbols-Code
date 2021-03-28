@@ -7,7 +7,7 @@ import { Seo } from '../components/Seo';
 export default function Home() {
   return (
     <div>
-      <Seo/>
+      <Seo siteTitle="Web Symbols"/>
 
       <h1>hello bicho</h1>
     </div>
